@@ -1,0 +1,1953 @@
+// dictionary_m.ts
+export type DictionaryEntry = {
+  meaning: string;
+  pos?: string;
+};
+
+export const DICTIONARY_M: Record<string, DictionaryEntry> = {
+  ma: { meaning: "A mother; a short form of mother.", pos: "noun" },
+  macabre: {
+    meaning: "Gruesome; horrifying; death-related.",
+    pos: "adjective",
+  },
+  macaroni: { meaning: "A pasta in small tube shapes.", pos: "noun" },
+  macaroon: {
+    meaning: "A small cake made of egg whites and sugar.",
+    pos: "noun",
+  },
+  mace: { meaning: "A spiked club; a spice; a ceremonial staff.", pos: "noun" },
+  machine: {
+    meaning: "An apparatus using mechanical power; a device.",
+    pos: "noun",
+  },
+  machinery: { meaning: "Machines collectively; a system.", pos: "noun" },
+  machinist: { meaning: "A person who operates machines.", pos: "noun" },
+  mackintosh: { meaning: "A waterproof coat; a type of cloth.", pos: "noun" },
+  macro: { meaning: "Large; a large macro instruction.", pos: "adjective" },
+  macroscopic: {
+    meaning: "Visible to the naked eye; large-scale.",
+    pos: "adjective",
+  },
+  mad: { meaning: "Insane; very angry; enthusiastic.", pos: "adjective" },
+  madam: { meaning: "A polite form of address for a woman.", pos: "noun" },
+  madcap: { meaning: "Reckless; impulsive; a rash person.", pos: "adjective" },
+  madden: { meaning: "To make angry; to irritate.", pos: "verb" },
+  made: { meaning: "Past tense of make; produced; created.", pos: "verb" },
+  madhouse: { meaning: "A mental hospital; a scene of chaos.", pos: "noun" },
+  madman: { meaning: "An insane person; a reckless person.", pos: "noun" },
+  madness: { meaning: "Insanity; extreme foolishness.", pos: "noun" },
+  maelstrom: {
+    meaning: "A powerful whirlpool; a turbulent situation.",
+    pos: "noun",
+  },
+  maestro: { meaning: "A master of music; an expert.", pos: "noun" },
+  mafia: { meaning: "A secret criminal organization.", pos: "noun" },
+  magazine: {
+    meaning: "A periodical publication; a store for ammunition.",
+    pos: "noun",
+  },
+  magenta: { meaning: "A reddish-purple color.", pos: "noun" },
+  maggot: { meaning: "The larva of a fly.", pos: "noun" },
+  magic: {
+    meaning: "The power to influence events by supernatural means.",
+    pos: "noun",
+  },
+  magical: { meaning: "Relating to magic; enchanting.", pos: "adjective" },
+  magician: { meaning: "A practitioner of magic; a conjurer.", pos: "noun" },
+  magistrate: { meaning: "A civil officer; a judge.", pos: "noun" },
+  magnanimous: { meaning: "Generous; noble in spirit.", pos: "adjective" },
+  magnate: { meaning: "A wealthy and influential person.", pos: "noun" },
+  magnesium: { meaning: "A chemical element.", pos: "noun" },
+  magnet: {
+    meaning: "A substance that attracts iron; a lodestone.",
+    pos: "noun",
+  },
+  magnetic: {
+    meaning: "Having the properties of a magnet; attractive.",
+    pos: "adjective",
+  },
+  magnetism: {
+    meaning: "The force of attraction; personal charm.",
+    pos: "noun",
+  },
+  magnificent: { meaning: "Splendid; impressive; grand.", pos: "adjective" },
+  magnify: { meaning: "To enlarge; to exaggerate.", pos: "verb" },
+  magnitude: { meaning: "Greatness; size; importance.", pos: "noun" },
+  magnolia: { meaning: "A tree with large fragrant flowers.", pos: "noun" },
+  mahogany: {
+    meaning: "A tropical hardwood; a reddish-brown color.",
+    pos: "noun",
+  },
+  maid: { meaning: "A female servant; a young unmarried woman.", pos: "noun" },
+  maiden: { meaning: "A young unmarried woman; a first venture.", pos: "noun" },
+  mail: { meaning: "Letters and packages sent by post; armor.", pos: "noun" },
+  maim: { meaning: "To wound; to cripple; to disable.", pos: "verb" },
+  main: {
+    meaning: "Most important; a principal pipe or cable.",
+    pos: "adjective",
+  },
+  mainland: { meaning: "The main landmass of a country.", pos: "noun" },
+  maintain: {
+    meaning: "To keep in a specified state or continue.",
+    pos: "verb",
+  },
+  maintenance: { meaning: "The act of maintaining; upkeep.", pos: "noun" },
+  maize: { meaning: "Corn; a cereal grain.", pos: "noun" },
+  majestic: { meaning: "Having majesty; grand; stately.", pos: "adjective" },
+  majesty: { meaning: "Dignity; sovereignty; royal power.", pos: "noun" },
+  major: {
+    meaning: "Greater; a military rank; a field of study.",
+    pos: "adjective",
+  },
+  "major histocompatibility complex": {
+    meaning: "A set of proteins that present antigens to immune cells.",
+    pos: "noun",
+  },
+  majority: { meaning: "The greater number; more than half.", pos: "noun" },
+  make: { meaning: "To create; to produce; to cause.", pos: "verb" },
+  maker: { meaning: "A person who makes; a creator.", pos: "noun" },
+  makeshift: {
+    meaning: "A temporary substitute; improvised.",
+    pos: "adjective",
+  },
+  makeup: { meaning: "Cosmetics; composition; nature.", pos: "noun" },
+  malady: { meaning: "A disease; an ailment.", pos: "noun" },
+  malaise: { meaning: "A feeling of discomfort; unease.", pos: "noun" },
+  malapropism: {
+    meaning: "The misuse of a word; a verbal error.",
+    pos: "noun",
+  },
+  malaria: { meaning: "A disease spread by mosquitoes.", pos: "noun" },
+  male: { meaning: "The sex that produces sperm.", pos: "adjective" },
+  malevolent: {
+    meaning: "Having or showing a wish to do harm.",
+    pos: "adjective",
+  },
+  malice: { meaning: "The intention or desire to do harm.", pos: "noun" },
+  malicious: { meaning: "Intended to harm; spiteful.", pos: "adjective" },
+  malign: { meaning: "To speak evil of; harmful.", pos: "verb" },
+  malignant: {
+    meaning: "Harmful; tending to spread and cause severe illness.",
+    pos: "adjective",
+  },
+  malinger: { meaning: "To pretend illness to avoid work.", pos: "verb" },
+  mall: { meaning: "A shopping center; a shaded walk.", pos: "noun" },
+  malleable: {
+    meaning: "Able to be shaped; pliable; adaptable.",
+    pos: "adjective",
+  },
+  mallet: { meaning: "A hammer; a wooden club.", pos: "noun" },
+  mallow: { meaning: "A plant with soft leaves.", pos: "noun" },
+  malnutrition: {
+    meaning: "Poor nutrition; lack of proper food.",
+    pos: "noun",
+  },
+  malodorous: { meaning: "Having a bad smell; foul.", pos: "adjective" },
+  malt: { meaning: "Grain used for brewing; a malted milk.", pos: "noun" },
+  mammal: { meaning: "A warm-blooded animal that produces milk.", pos: "noun" },
+  mammoth: { meaning: "A large extinct elephant; huge.", pos: "noun" },
+  man: { meaning: "An adult male human; a person.", pos: "noun" },
+  mana: {
+    meaning:
+      "Spiritual or supernatural power and energy in mystical traditions.",
+    pos: "noun",
+  },
+  manage: { meaning: "To be in charge of or handle efficiently.", pos: "verb" },
+  management: {
+    meaning: "The process of managing; the managers.",
+    pos: "noun",
+  },
+  manager: { meaning: "A person who manages a business.", pos: "noun" },
+  mandarin: { meaning: "A Chinese official; a citrus fruit.", pos: "noun" },
+  mandate: { meaning: "An official order; a command.", pos: "noun" },
+  mandatory: { meaning: "Required; compulsory.", pos: "adjective" },
+  mandible: { meaning: "The lower jaw; a jaw-like part.", pos: "noun" },
+  mandolin: { meaning: "A musical instrument with strings.", pos: "noun" },
+  mane: { meaning: "Long hair on the neck of a horse.", pos: "noun" },
+  maneuver: { meaning: "A planned movement; a tactic.", pos: "noun" },
+  mangle: {
+    meaning: "To damage; to mutilate; a machine for pressing.",
+    pos: "verb",
+  },
+  mango: { meaning: "A tropical fruit.", pos: "noun" },
+  mangy: { meaning: "Scabby; shabby; dilapidated.", pos: "adjective" },
+  manhandle: { meaning: "To handle roughly; to move by force.", pos: "verb" },
+  manhood: {
+    meaning: "The state of being a man; male qualities.",
+    pos: "noun",
+  },
+  mania: { meaning: "An obsession; a craze; a mental disorder.", pos: "noun" },
+  maniac: {
+    meaning: "A person with a mania; an enthusiastic fanatic.",
+    pos: "noun",
+  },
+  manicure: { meaning: "Care for the hands; to trim the nails.", pos: "noun" },
+  manifest: { meaning: "Clear; obvious; to show.", pos: "adjective" },
+  manifesto: {
+    meaning: "A public declaration; a statement of intent.",
+    pos: "noun",
+  },
+  manifold: { meaning: "Many; a pipe; to make many copies.", pos: "adjective" },
+  manikin: {
+    meaning: "A model of the human body; a small person.",
+    pos: "noun",
+  },
+  manipulate: {
+    meaning: "To handle skillfully; to control unfairly.",
+    pos: "verb",
+  },
+  mankind: { meaning: "The human race; all people.", pos: "noun" },
+  manner: { meaning: "A way of doing something; behavior.", pos: "noun" },
+  manners: { meaning: "Polite behavior; social conduct.", pos: "noun" },
+  manor: { meaning: "A large house; an estate.", pos: "noun" },
+  mansion: { meaning: "A large, impressive house.", pos: "noun" },
+  manslaughter: {
+    meaning: "The unlawful killing of a person without intent.",
+    pos: "noun",
+  },
+  mantel: { meaning: "A shelf over a fireplace.", pos: "noun" },
+  mantis: { meaning: "A predatory insect.", pos: "noun" },
+  mantle: {
+    meaning: "Cloak; responsibility or power passed to another.",
+    pos: "noun",
+  },
+  manual: { meaning: "Done by hand; a handbook.", pos: "adjective" },
+  manufacture: {
+    meaning: "To make by machine; the process of making.",
+    pos: "verb",
+  },
+  manure: { meaning: "Organic matter used as fertilizer.", pos: "noun" },
+  manuscript: {
+    meaning: "A written document; a handwritten book.",
+    pos: "noun",
+  },
+  many: { meaning: "A large number of; numerous.", pos: "determiner" },
+  map: { meaning: "A representation of an area; to plan.", pos: "noun" },
+  maple: { meaning: "A tree with broad leaves; maple syrup.", pos: "noun" },
+  mar: { meaning: "To damage; to spoil.", pos: "verb" },
+  marathon: { meaning: "A long-distance race; a long event.", pos: "noun" },
+  maraud: { meaning: "To roam in search of loot; to raid.", pos: "verb" },
+  marble: { meaning: "A metamorphic rock; a small ball.", pos: "noun" },
+  march: { meaning: "To walk in a military manner; a month.", pos: "verb" },
+  mare: { meaning: "A female horse.", pos: "noun" },
+  margarine: { meaning: "A butter substitute.", pos: "noun" },
+  margin: { meaning: "The edge; a spare amount.", pos: "noun" },
+  marigold: { meaning: "A plant with yellow or orange flowers.", pos: "noun" },
+  marijuana: { meaning: "A psychoactive drug; cannabis.", pos: "noun" },
+  marina: { meaning: "A harbor for small boats.", pos: "noun" },
+  marinade: { meaning: "A savory liquid for soaking food.", pos: "noun" },
+  marinate: { meaning: "To soak in a marinade.", pos: "verb" },
+  marine: { meaning: "Relating to the sea; a soldier.", pos: "adjective" },
+  mariner: { meaning: "A sailor; a seafarer.", pos: "noun" },
+  marital: { meaning: "Relating to marriage.", pos: "adjective" },
+  maritime: { meaning: "Relating to the sea; nautical.", pos: "adjective" },
+  mark: { meaning: "A sign; a grade; a target; to indicate.", pos: "noun" },
+  market: { meaning: "A place for trade; a demand; to sell.", pos: "noun" },
+  marketplace: {
+    meaning: "An open area or building where goods are bought and sold.",
+    pos: "noun",
+  },
+  marksman: {
+    meaning: "A fighter of exceptional skill with ranged weapons.",
+    pos: "noun",
+  },
+  maroon: { meaning: "To strand; a dark red color.", pos: "verb" },
+  marriage: { meaning: "The state of being married; a wedding.", pos: "noun" },
+  married: { meaning: "Having a husband or wife.", pos: "adjective" },
+  marrow: { meaning: "The soft tissue inside bones.", pos: "noun" },
+  marry: { meaning: "To take as a spouse; to unite.", pos: "verb" },
+  marsh: { meaning: "A wetland; a swamp.", pos: "noun" },
+  marshal: { meaning: "A law enforcement officer; to arrange.", pos: "noun" },
+  marshmallow: { meaning: "A soft, spongy candy.", pos: "noun" },
+  martial: {
+    meaning: "Relating to warfare, combat, and martial arts.",
+    pos: "adjective",
+  },
+  martin: { meaning: "A type of swallow.", pos: "noun" },
+  martinet: { meaning: "A strict disciplinarian.", pos: "noun" },
+  martyr: {
+    meaning: "A person who dies for a cause; to torture.",
+    pos: "noun",
+  },
+  marvel: { meaning: "To be amazed; a wonderful thing.", pos: "verb" },
+  marvelous: { meaning: "Wonderful; astonishing.", pos: "adjective" },
+  mascot: { meaning: "A symbol; a good-luck charm.", pos: "noun" },
+  masculine: {
+    meaning: "Having qualities associated with men.",
+    pos: "adjective",
+  },
+  mask: {
+    meaning: "Something covering one's true nature or identity.",
+    pos: "noun",
+  },
+  mason: { meaning: "A person who builds with stone.", pos: "noun" },
+  masonry: { meaning: "Stonework; the trade of a mason.", pos: "noun" },
+  masquerade: { meaning: "A costume party; a false show.", pos: "noun" },
+  mass: { meaning: "A large quantity; a religious service.", pos: "noun" },
+  "mass spectrometry": {
+    meaning: "A technique to measure the mass of molecules.",
+    pos: "noun",
+  },
+  massacre: { meaning: "A brutal slaughter; to kill.", pos: "noun" },
+  massage: { meaning: "To manipulate muscles; a treatment.", pos: "verb" },
+  massive: { meaning: "Large; substantial; imposing.", pos: "adjective" },
+  mast: { meaning: "A tall pole on a ship; nuts as food.", pos: "noun" },
+  master: {
+    meaning: "A highly skilled practitioner who teaches disciples.",
+    pos: "noun",
+  },
+  masterpiece: { meaning: "A great work; a supreme achievement.", pos: "noun" },
+  mastery: { meaning: "Complete control; great skill.", pos: "noun" },
+  masticate: { meaning: "To chew; to grind with teeth.", pos: "verb" },
+  mastiff: { meaning: "A large breed of dog.", pos: "noun" },
+  mat: { meaning: "A floor covering; to tangle.", pos: "noun" },
+  match: {
+    meaning: "A contest; a counterpart; a small stick for fire.",
+    pos: "noun",
+  },
+  matchless: { meaning: "Without equal; peerless.", pos: "adjective" },
+  mate: { meaning: "A partner; to mate; a friend.", pos: "noun" },
+  material: { meaning: "Substance; information; important.", pos: "noun" },
+  maternal: { meaning: "Relating to a mother; motherly.", pos: "adjective" },
+  mathematician: { meaning: "A person skilled in mathematics.", pos: "noun" },
+  mathematics: { meaning: "The study of numbers and quantities.", pos: "noun" },
+  matin: { meaning: "A morning prayer or song.", pos: "noun" },
+  matriarch: { meaning: "A female head of a family.", pos: "noun" },
+  matricide: { meaning: "The killing of one's mother.", pos: "noun" },
+  matrimony: { meaning: "The state of marriage.", pos: "noun" },
+  matrix: { meaning: "An environment; a rectangular array.", pos: "noun" },
+  matron: { meaning: "A married woman; a supervisor.", pos: "noun" },
+  matter: {
+    meaning: "Physical substance; an affair; importance.",
+    pos: "noun",
+  },
+  mattress: { meaning: "A pad for sleeping.", pos: "noun" },
+  mature: { meaning: "Fully developed in body or mind.", pos: "adjective" },
+  mausoleum: {
+    meaning: "A grand burial structure, often containing treasure or curses.",
+    pos: "noun",
+  },
+  mauve: { meaning: "A pale purple color.", pos: "noun" },
+  maverick: { meaning: "An independent person; a nonconformist.", pos: "noun" },
+  maw: { meaning: "The mouth of a ravenous animal.", pos: "noun" },
+  maxim: { meaning: "A general truth; a principle.", pos: "noun" },
+  maximum: { meaning: "The greatest amount; the highest.", pos: "noun" },
+  may: { meaning: "Used to express possibility; to permit.", pos: "verb" },
+  maybe: { meaning: "Possibly; perhaps.", pos: "adverb" },
+  mayhem: { meaning: "Violent disorder; chaos.", pos: "noun" },
+  mayor: { meaning: "The head of a city government.", pos: "noun" },
+  maze: { meaning: "A complex network of paths; a labyrinth.", pos: "noun" },
+  me: {
+    meaning: "Used as the object of a verb referring to the speaker.",
+    pos: "pronoun",
+  },
+  meadow: { meaning: "A field of grass.", pos: "noun" },
+  meager: { meaning: "Scanty; lacking in amount.", pos: "adjective" },
+  meal: { meaning: "An occasion of eating; food.", pos: "noun" },
+  mean: { meaning: "To signify or intend to convey.", pos: "verb" },
+  meander: { meaning: "To wander; to wind; a curving path.", pos: "verb" },
+  meaning: { meaning: "The sense; the significance.", pos: "noun" },
+  means: { meaning: "A method; resources; money.", pos: "noun" },
+  meantime: { meaning: "In the time between.", pos: "noun" },
+  meanwhile: { meaning: "In the meantime; at the same time.", pos: "adverb" },
+  measles: { meaning: "A contagious viral disease.", pos: "noun" },
+  measure: {
+    meaning: "To determine the size or amount of something.",
+    pos: "verb",
+  },
+  measurement: { meaning: "The act of measuring; a dimension.", pos: "noun" },
+  meat: { meaning: "Flesh of animals used as food.", pos: "noun" },
+  mechanic: { meaning: "A person who repairs machines.", pos: "noun" },
+  mechanical: { meaning: "Relating to machines; automatic.", pos: "adjective" },
+  mechanism: {
+    meaning:
+      "A system of moving parts; a process or method by which something works.",
+    pos: "noun",
+  },
+  mechanize: { meaning: "To make mechanical; to automate.", pos: "verb" },
+  medal: { meaning: "A metal award; a commemorative piece.", pos: "noun" },
+  meddle: { meaning: "To interfere; to involve oneself.", pos: "verb" },
+  media: { meaning: "The means of communication; the press.", pos: "noun" },
+  mediate: { meaning: "To intervene; to help resolve.", pos: "verb" },
+  medical: { meaning: "Relating to medicine; medicinal.", pos: "adjective" },
+  medication: { meaning: "A drug; a medicine.", pos: "noun" },
+  medicinal: { meaning: "Having healing properties.", pos: "adjective" },
+  medicine: { meaning: "The treatment of disease; a drug.", pos: "noun" },
+  medieval: { meaning: "Relating to the Middle Ages.", pos: "adjective" },
+  mediocre: { meaning: "Of moderate quality; average.", pos: "adjective" },
+  meditate: { meaning: "To think deeply; to reflect.", pos: "verb" },
+  meditation: {
+    meaning: "The practice of deep thought; reflection.",
+    pos: "noun",
+  },
+  medium: {
+    meaning: "In the middle; a means of communication.",
+    pos: "adjective",
+  },
+  medley: { meaning: "A varied mixture; a musical piece.", pos: "noun" },
+  meek: { meaning: "Mild; gentle; submissive.", pos: "adjective" },
+  meet: { meaning: "To come into the presence of someone.", pos: "verb" },
+  meeting: { meaning: "A gathering of people; an encounter.", pos: "noun" },
+  megaphone: {
+    meaning: "A cone-shaped device for amplifying sound.",
+    pos: "noun",
+  },
+  melancholy: {
+    meaning: "A deep, pensive, and long-lasting sadness.",
+    pos: "noun",
+  },
+  mellow: { meaning: "Soft; rich; relaxed; mature.", pos: "adjective" },
+  melodic: { meaning: "Relating to melody; tuneful.", pos: "adjective" },
+  melody: { meaning: "A sequence of musical notes; a tune.", pos: "noun" },
+  melon: { meaning: "A large sweet fruit; a gourd.", pos: "noun" },
+  melt: { meaning: "To become liquid; to soften.", pos: "verb" },
+  member: { meaning: "A person belonging to a group; a part.", pos: "noun" },
+  membrane: { meaning: "A thin layer of tissue.", pos: "noun" },
+  memento: {
+    meaning: "An object kept as a reminder of an event.",
+    pos: "noun",
+  },
+  memo: { meaning: "A brief note; a memorandum.", pos: "noun" },
+  memoir: { meaning: "A biography; a personal account.", pos: "noun" },
+  memorable: { meaning: "Worth remembering; notable.", pos: "adjective" },
+  memorandum: { meaning: "A note; a record; a brief message.", pos: "noun" },
+  memorial: { meaning: "A monument; commemorative.", pos: "noun" },
+  memorize: { meaning: "To commit to memory; to learn by heart.", pos: "verb" },
+  memory: { meaning: "The ability to recall; a recollection.", pos: "noun" },
+  menace: { meaning: "A threat; to threaten.", pos: "noun" },
+  menagerie: { meaning: "A collection of animals; a zoo.", pos: "noun" },
+  mend: { meaning: "To repair; to heal; to improve.", pos: "verb" },
+  menial: { meaning: "Lowly; servile; a servant.", pos: "adjective" },
+  meningitis: {
+    meaning: "Inflammation of the membranes of the brain.",
+    pos: "noun",
+  },
+  menopause: { meaning: "The end of menstruation.", pos: "noun" },
+  menstruate: { meaning: "To experience menstruation.", pos: "verb" },
+  mental: { meaning: "Relating to the mind; intellectual.", pos: "adjective" },
+  mention: { meaning: "To refer to briefly or casually.", pos: "verb" },
+  mentor: { meaning: "A wise teacher; a guide.", pos: "noun" },
+  menu: { meaning: "A list of dishes; a computer display.", pos: "noun" },
+  mercantile: { meaning: "Relating to trade; commercial.", pos: "adjective" },
+  mercenary: {
+    meaning:
+      "A hired fighter who serves for payment rather than loyalty; a soldier hired to fight for a foreign country, motivated by greed.",
+    pos: "noun",
+  },
+  merchandise: { meaning: "Goods for sale.", pos: "noun" },
+  merchant: { meaning: "A person who buys and sells goods.", pos: "noun" },
+  merciful: { meaning: "Showing mercy; compassionate.", pos: "adjective" },
+  mercury: { meaning: "A liquid metal; a planet.", pos: "noun" },
+  mercy: {
+    meaning: "Compassion shown toward someone in one's power.",
+    pos: "noun",
+  },
+  mere: { meaning: "Nothing more than; simple; a lake.", pos: "adjective" },
+  merge: { meaning: "To combine; to unite.", pos: "verb" },
+  meridian: {
+    meaning: "A channel through which vital energy flows in the body.",
+    pos: "noun",
+  },
+  merit: { meaning: "Excellence; worth; to deserve.", pos: "noun" },
+  mermaid: {
+    meaning: "A mythical sea creature with a woman's body.",
+    pos: "noun",
+  },
+  merry: { meaning: "Cheerful; lively; happy.", pos: "adjective" },
+  mesa: { meaning: "A flat-topped hill.", pos: "noun" },
+  mesh: { meaning: "A network; a screen; to entangle.", pos: "noun" },
+  mesmerize: { meaning: "To hypnotize; to fascinate.", pos: "verb" },
+  mess: { meaning: "A disorderly state; a difficulty.", pos: "noun" },
+  message: { meaning: "A communication; a meaning.", pos: "noun" },
+  messenger: { meaning: "A person who carries a message.", pos: "noun" },
+  messiah: { meaning: "A savior; a deliverer.", pos: "noun" },
+  metabolism: { meaning: "The chemical processes in the body.", pos: "noun" },
+  metabolomics: {
+    meaning: "The study of metabolites and metabolic pathways.",
+    pos: "noun",
+  },
+  metal: { meaning: "A solid material; metallic; a heavy metal.", pos: "noun" },
+  metallic: { meaning: "Resembling metal; shiny.", pos: "adjective" },
+  metallurgy: { meaning: "The science of metals.", pos: "noun" },
+  metamorphosis: {
+    meaning: "A transformation; a change of form.",
+    pos: "noun",
+  },
+  metaphor: { meaning: "A figure of speech; a comparison.", pos: "noun" },
+  metaphysical: {
+    meaning: "Relating to metaphysics; abstract.",
+    pos: "adjective",
+  },
+  metastasis: {
+    meaning: "The spread of cancer cells to other parts of the body.",
+    pos: "noun",
+  },
+  meteor: {
+    meaning: "A falling star; often portends catastrophic events.",
+    pos: "noun",
+  },
+  meteorite: { meaning: "A meteor that falls to earth.", pos: "noun" },
+  meter: { meaning: "A unit of length; a poetic rhythm.", pos: "noun" },
+  method: { meaning: "A way of doing something; a procedure.", pos: "noun" },
+  methodical: { meaning: "Systematic; orderly.", pos: "adjective" },
+  meticulous: {
+    meaning: "Showing great attention to detail; very careful.",
+    pos: "adjective",
+  },
+  metre: { meaning: "A unit of length; poetic rhythm.", pos: "noun" },
+  metric: {
+    meaning: "Relating to the metric system; a standard.",
+    pos: "adjective",
+  },
+  metronome: { meaning: "A device for marking time.", pos: "noun" },
+  metropolitan: { meaning: "Relating to a large city.", pos: "adjective" },
+  mettle: { meaning: "Courage; spirit; resilience.", pos: "noun" },
+  mew: { meaning: "A cat's cry; a mew.", pos: "noun" },
+  mezzanine: { meaning: "A low story between floors.", pos: "noun" },
+  micro: { meaning: "Small; a microcomputer.", pos: "adjective" },
+  microarray: {
+    meaning: "A chip that measures the expression of thousands of genes.",
+    pos: "noun",
+  },
+  microbe: { meaning: "A microorganism; a germ.", pos: "noun" },
+  microbiology: { meaning: "The study of microorganisms.", pos: "noun" },
+  microcosm: {
+    meaning: "A small representation of a larger system.",
+    pos: "noun",
+  },
+  microfilament: {
+    meaning: "A thin fiber in the cytoskeleton, involved in movement.",
+    pos: "noun",
+  },
+  microphone: { meaning: "A device for amplifying sound.", pos: "noun" },
+  microscope: {
+    meaning: "An instrument for viewing small objects.",
+    pos: "noun",
+  },
+  microscopic: { meaning: "Too small to be seen; minute.", pos: "adjective" },
+  microtubule: {
+    meaning: "A thick fiber in the cytoskeleton, involved in cell division.",
+    pos: "noun",
+  },
+  mid: { meaning: "Middle; central.", pos: "adjective" },
+  midday: { meaning: "The middle of the day; noon.", pos: "noun" },
+  middle: { meaning: "The point between extremes; central.", pos: "noun" },
+  midge: { meaning: "A small fly.", pos: "noun" },
+  midget: { meaning: "A very small person.", pos: "noun" },
+  midnight: {
+    meaning: "The stroke of twelve at night; a powerful mystical hour.",
+    pos: "noun",
+  },
+  midst: { meaning: "The middle; among.", pos: "noun" },
+  midwife: { meaning: "A person trained to assist childbirth.", pos: "noun" },
+  might: {
+    meaning: "Great power or strength; military or supernatural force.",
+    pos: "noun",
+  },
+  mighty: { meaning: "Powerful; strong; great.", pos: "adjective" },
+  migraine: { meaning: "A severe headache.", pos: "noun" },
+  migrant: { meaning: "A person who moves; a migrating animal.", pos: "noun" },
+  migrate: { meaning: "To move from one place to another.", pos: "verb" },
+  mild: { meaning: "Not severe; gentle; moderate.", pos: "adjective" },
+  mildew: {
+    meaning:
+      "A fungus or mold that grows on plants or surfaces in damp conditions.",
+    pos: "noun",
+  },
+  mile: { meaning: "A unit of distance.", pos: "noun" },
+  milestone: { meaning: "A significant event; a stone marker.", pos: "noun" },
+  milieu: { meaning: "An environment; a social setting.", pos: "noun" },
+  militant: { meaning: "Aggressively active; combative.", pos: "adjective" },
+  military: { meaning: "Relating to armed forces.", pos: "adjective" },
+  militia: { meaning: "A volunteer army.", pos: "noun" },
+  milk: {
+    meaning: "A white liquid produced by mammals; to draw milk.",
+    pos: "noun",
+  },
+  mill: {
+    meaning: "A building that processes grain or raw materials.",
+    pos: "noun",
+  },
+  millennium: { meaning: "A period of one thousand years.", pos: "noun" },
+  miller: { meaning: "A person who works in a mill.", pos: "noun" },
+  million: { meaning: "A number equal to 1,000,000.", pos: "numeral" },
+  millionaire: {
+    meaning: "A person with wealth of a million or more.",
+    pos: "noun",
+  },
+  mime: { meaning: "A performance without speech; to mimic.", pos: "noun" },
+  mimic: {
+    meaning:
+      "A shapeshifting creature that disguises itself as an object to ambush prey.",
+    pos: "noun",
+  },
+  mimicry: { meaning: "The act of imitating.", pos: "noun" },
+  min: { meaning: "A unit of time; a minute.", pos: "noun" },
+  mince: { meaning: "To chop finely; to walk daintily.", pos: "verb" },
+  mind: { meaning: "The faculty of thought and reason.", pos: "noun" },
+  mindbender: {
+    meaning: "One who can manipulate thoughts and perceptions.",
+    pos: "noun",
+  },
+  mine: {
+    meaning: "A hole for minerals; a bomb; belonging to me.",
+    pos: "noun",
+  },
+  miner: { meaning: "A person who works in a mine.", pos: "noun" },
+  mineral: {
+    meaning: "A naturally occurring substance; a mineral.",
+    pos: "noun",
+  },
+  mingle: { meaning: "To mix; to socialize.", pos: "verb" },
+  mini: { meaning: "Small; a mini skirt.", pos: "adjective" },
+  miniature: { meaning: "A small copy; tiny.", pos: "noun" },
+  minimize: { meaning: "To reduce to the smallest degree.", pos: "verb" },
+  minimum: { meaning: "The least amount.", pos: "noun" },
+  minion: { meaning: "A follower; a servant.", pos: "noun" },
+  minister: { meaning: "A government official; a clergyman.", pos: "noun" },
+  ministry: { meaning: "A government department; service.", pos: "noun" },
+  minor: { meaning: "Lesser in importance or degree.", pos: "adjective" },
+  minority: { meaning: "The smaller part; a racial group.", pos: "noun" },
+  minotaur: {
+    meaning:
+      "A bull-headed humanoid known for brute strength and a fierce temper.",
+    pos: "noun",
+  },
+  mint: {
+    meaning: "A building where coins are officially produced.",
+    pos: "noun",
+  },
+  minus: { meaning: "Less; negative; a subtraction sign.", pos: "preposition" },
+  minute: {
+    meaning: "A unit of time; extremely small.",
+    pos: "noun",
+  },
+  miracle: { meaning: "A supernatural event; a wonder.", pos: "noun" },
+  miraculous: { meaning: "Like a miracle; remarkable.", pos: "adjective" },
+  mirage: { meaning: "An optical illusion; a mirage.", pos: "noun" },
+  mire: { meaning: "Mud; to sink; to entangle.", pos: "noun" },
+  mirror: { meaning: "A reflective surface; to reflect.", pos: "noun" },
+  mirth: { meaning: "Amusement; laughter.", pos: "noun" },
+  misadventure: { meaning: "An accident; a mishap.", pos: "noun" },
+  misanthrope: { meaning: "A person who dislikes people.", pos: "noun" },
+  misapply: { meaning: "To use incorrectly.", pos: "verb" },
+  misapprehend: { meaning: "To misunderstand.", pos: "verb" },
+  misappropriate: { meaning: "To use wrongly; to embezzle.", pos: "verb" },
+  misbehave: { meaning: "To act improperly.", pos: "verb" },
+  miscalculate: { meaning: "To calculate incorrectly.", pos: "verb" },
+  miscarriage: { meaning: "A failure; a natural abortion.", pos: "noun" },
+  miscarry: { meaning: "To fail; to abort a pregnancy.", pos: "verb" },
+  miscegenation: { meaning: "Interracial marriage.", pos: "noun" },
+  miscellaneous: { meaning: "Diverse; varied.", pos: "adjective" },
+  mischance: { meaning: "Bad luck; an unfortunate event.", pos: "noun" },
+  mischief: { meaning: "Trouble; playful harm.", pos: "noun" },
+  misconception: { meaning: "A wrong idea; a misunderstanding.", pos: "noun" },
+  misconduct: { meaning: "Improper behavior.", pos: "noun" },
+  misconstrue: { meaning: "To interpret wrongly.", pos: "verb" },
+  misdemeanor: { meaning: "A minor crime.", pos: "noun" },
+  miser: { meaning: "A person who hoards money.", pos: "noun" },
+  miserable: { meaning: "Very unhappy; wretched.", pos: "adjective" },
+  misery: { meaning: "Great suffering; unhappiness.", pos: "noun" },
+  misfire: { meaning: "To fail to fire; to fail.", pos: "verb" },
+  misfit: { meaning: "A person who does not fit in.", pos: "noun" },
+  misfortune: { meaning: "Bad luck or an unfortunate event.", pos: "noun" },
+  misgiving: { meaning: "A feeling of doubt; a qualm.", pos: "noun" },
+  misguided: { meaning: "Led astray; wrong.", pos: "adjective" },
+  mishandle: { meaning: "To manage badly.", pos: "verb" },
+  mishap: { meaning: "A minor accident; a misfortune.", pos: "noun" },
+  misinterpret: { meaning: "To interpret wrongly.", pos: "verb" },
+  misjudge: { meaning: "To judge incorrectly.", pos: "verb" },
+  mislay: { meaning: "To put in a forgotten place.", pos: "verb" },
+  mislead: { meaning: "To lead astray; to deceive.", pos: "verb" },
+  misplace: { meaning: "To put in the wrong place.", pos: "verb" },
+  misprint: { meaning: "A typographical error.", pos: "noun" },
+  mispronounce: { meaning: "To pronounce incorrectly.", pos: "verb" },
+  misquote: { meaning: "To quote incorrectly.", pos: "verb" },
+  misread: { meaning: "To read incorrectly.", pos: "verb" },
+  misrepresent: { meaning: "To represent falsely.", pos: "verb" },
+  miss: { meaning: "To fail to hit, reach, or notice.", pos: "verb" },
+  misshapen: { meaning: "Badly shaped; deformed.", pos: "adjective" },
+  missile: { meaning: "A projectile; a guided weapon.", pos: "noun" },
+  missing: { meaning: "Lost; absent; not present.", pos: "adjective" },
+  mission: { meaning: "A task; a religious mission.", pos: "noun" },
+  missionary: { meaning: "A person sent for religious work.", pos: "noun" },
+  missive: { meaning: "A letter; a message.", pos: "noun" },
+  misspell: { meaning: "To spell incorrectly.", pos: "verb" },
+  mist: { meaning: "A fog; a fine spray.", pos: "noun" },
+  mistake: { meaning: "An error; a misunderstanding; to err.", pos: "noun" },
+  mistaken: { meaning: "Wrong; in error.", pos: "adjective" },
+  mister: { meaning: "A title used for men.", pos: "noun" },
+  mistime: { meaning: "To time badly.", pos: "verb" },
+  mistletoe: {
+    meaning: "A plant used as a Christmas decoration.",
+    pos: "noun",
+  },
+  mistreat: { meaning: "To treat badly.", pos: "verb" },
+  mistress: {
+    meaning: "A woman in a position of authority; a paramour.",
+    pos: "noun",
+  },
+  mistrust: { meaning: "To distrust; suspicion.", pos: "verb" },
+  misty: { meaning: "Clouded; hazy.", pos: "adjective" },
+  misunderstand: { meaning: "To understand incorrectly.", pos: "verb" },
+  misuse: { meaning: "To use wrongly; an improper use.", pos: "verb" },
+  mite: { meaning: "A tiny arachnid; a small amount.", pos: "noun" },
+  mitigate: { meaning: "To make less severe; to moderate.", pos: "verb" },
+  mitochondria: {
+    meaning: "Organelles that generate energy in eukaryotic cells.",
+    pos: "noun",
+  },
+  mitosis: {
+    meaning: "Cell division that results in two identical daughter cells.",
+    pos: "noun",
+  },
+  mitre: { meaning: "A bishop's headdress; a joint.", pos: "noun" },
+  mitt: { meaning: "A glove; a baseball glove.", pos: "noun" },
+  mitten: { meaning: "A glove covering the hand.", pos: "noun" },
+  mix: { meaning: "To combine; to socialize; a mixture.", pos: "verb" },
+  mixture: { meaning: "A combination; a blend.", pos: "noun" },
+  mnemonic: { meaning: "A memory aid; helping to remember.", pos: "noun" },
+  moan: { meaning: "A low sound; to complain.", pos: "noun" },
+  moat: { meaning: "A deep trench around a fortification.", pos: "noun" },
+  mob: { meaning: "A crowd; a criminal group.", pos: "noun" },
+  mobile: { meaning: "Moving; movable; a mobile phone.", pos: "adjective" },
+  mobilize: { meaning: "To organize for action.", pos: "verb" },
+  moccasin: { meaning: "A soft leather shoe.", pos: "noun" },
+  mock: { meaning: "To ridicule; to imitate; fake.", pos: "verb" },
+  mode: { meaning: "A way; a fashion; a style.", pos: "noun" },
+  model: {
+    meaning: "A representation; a person who models; an example.",
+    pos: "noun",
+  },
+  moderate: { meaning: "Average; moderate; to reduce.", pos: "adjective" },
+  modern: { meaning: "Current; recent; modern.", pos: "adjective" },
+  modest: { meaning: "Humble; moderate; not excessive.", pos: "adjective" },
+  modesty: { meaning: "The quality of being modest.", pos: "noun" },
+  modicum: { meaning: "A small amount.", pos: "noun" },
+  modify: { meaning: "To make partial changes to something.", pos: "verb" },
+  modish: { meaning: "Fashionable; stylish.", pos: "adjective" },
+  modulate: { meaning: "To regulate; to adjust; to vary.", pos: "verb" },
+  module: { meaning: "A unit; a part of a course.", pos: "noun" },
+  moiety: { meaning: "A half; a portion.", pos: "noun" },
+  moist: { meaning: "Slightly wet; damp.", pos: "adjective" },
+  moisten: { meaning: "To make moist.", pos: "verb" },
+  moisture: { meaning: "Water; dampness.", pos: "noun" },
+  molar: { meaning: "A grinding tooth.", pos: "noun" },
+  molasses: { meaning: "A thick syrup.", pos: "noun" },
+  mold: { meaning: "A fungus; a shape; to form.", pos: "noun" },
+  molder: { meaning: "To decay; to crumble.", pos: "verb" },
+  molding: { meaning: "A decorative strip; a mold.", pos: "noun" },
+  mole: { meaning: "A small mammal; a spy; a spot.", pos: "noun" },
+  molecular: { meaning: "Relating to molecules.", pos: "adjective" },
+  "molecular biology": {
+    meaning: "The study of biological molecules and their interactions.",
+    pos: "noun",
+  },
+  molecule: { meaning: "The smallest unit of a compound.", pos: "noun" },
+  molehill: { meaning: "A mound of earth made by a mole.", pos: "noun" },
+  molest: { meaning: "To bother; to harass; to assault.", pos: "verb" },
+  mollify: { meaning: "To soothe; to appease.", pos: "verb" },
+  mollusk: { meaning: "An invertebrate with a shell.", pos: "noun" },
+  molten: { meaning: "Melted; liquefied by heat.", pos: "adjective" },
+  moment: { meaning: "A brief period; an important time.", pos: "noun" },
+  momentary: { meaning: "Lasting for a moment.", pos: "adjective" },
+  momentous: { meaning: "Significant; important.", pos: "adjective" },
+  momentum: { meaning: "The force of motion; impetus.", pos: "noun" },
+  monarch: { meaning: "A king or queen; a ruler.", pos: "noun" },
+  monarchy: { meaning: "Government by a monarch.", pos: "noun" },
+  monastery: {
+    meaning: "A secluded residence for a religious or monastic order.",
+    pos: "noun",
+  },
+  monastic: { meaning: "Relating to monks; secluded.", pos: "adjective" },
+  Monday: { meaning: "The second day of the week.", pos: "noun" },
+  monetary: { meaning: "Relating to money.", pos: "adjective" },
+  money: { meaning: "Currency; wealth.", pos: "noun" },
+  monger: { meaning: "A dealer; a promoter.", pos: "noun" },
+  mongrel: { meaning: "A mixed breed; a hybrid.", pos: "noun" },
+  monitor: {
+    meaning: "To observe and check progress or quality.",
+    pos: "verb",
+  },
+  monk: {
+    meaning:
+      "A disciplined fighter who channels inner energy through martial arts.",
+    pos: "noun",
+  },
+  monkey: { meaning: "A primate; a mischievous person.", pos: "noun" },
+  monochrome: { meaning: "Single-colored; black and white.", pos: "adjective" },
+  monocle: { meaning: "A single eyeglass.", pos: "noun" },
+  monogamy: { meaning: "The practice of having one spouse.", pos: "noun" },
+  monogram: { meaning: "A design of initials.", pos: "noun" },
+  monolith: { meaning: "A large stone; a massive structure.", pos: "noun" },
+  monologue: { meaning: "A long speech; a soliloquy.", pos: "noun" },
+  monopoly: { meaning: "Exclusive control; a monopoly.", pos: "noun" },
+  monotheism: { meaning: "Belief in one god.", pos: "noun" },
+  monotone: { meaning: "A single tone; unchanging pitch.", pos: "noun" },
+  monotonous: { meaning: "Dull; repetitive; uniform.", pos: "adjective" },
+  monstrosity: {
+    meaning: "A horrifying or grotesquely large creature.",
+    pos: "noun",
+  },
+  monstrous: { meaning: "Grotesque; huge; shocking.", pos: "adjective" },
+  month: { meaning: "A division of the year.", pos: "noun" },
+  monthly: { meaning: "Occurring every month.", pos: "adjective" },
+  monument: {
+    meaning: "A structure erected to commemorate or seal something powerful.",
+    pos: "noun",
+  },
+  monumental: { meaning: "Large; significant; grand.", pos: "adjective" },
+  mood: { meaning: "A state of mind; a mood.", pos: "noun" },
+  moon: {
+    meaning: "A celestial body orbiting a planet; to show one's buttocks.",
+    pos: "noun",
+  },
+  moonwell: {
+    meaning: "A mystical pool or place infused with lunar power.",
+    pos: "noun",
+  },
+  moor: { meaning: "A wetland; to secure a ship.", pos: "noun" },
+  mooring: { meaning: "A place to tie a boat.", pos: "noun" },
+  moose: { meaning: "A large deer with antlers.", pos: "noun" },
+  moot: { meaning: "Open to debate; hypothetical.", pos: "adjective" },
+  mop: { meaning: "A cleaning tool; to clean.", pos: "noun" },
+  mope: { meaning: "To be gloomy; to sulk.", pos: "verb" },
+  moral: {
+    meaning: "Relating to right and wrong; a lesson.",
+    pos: "adjective",
+  },
+  morale: { meaning: "The spirit of a group.", pos: "noun" },
+  morality: { meaning: "The principles of right and wrong.", pos: "noun" },
+  morass: { meaning: "A marsh; a difficult situation.", pos: "noun" },
+  moratorium: { meaning: "A suspension of activity.", pos: "noun" },
+  morbid: { meaning: "Relating to disease; gruesome.", pos: "adjective" },
+  more: { meaning: "A greater amount; additional.", pos: "adjective" },
+  moreover: { meaning: "In addition; furthermore.", pos: "adverb" },
+  morgue: { meaning: "A place for dead bodies.", pos: "noun" },
+  moribund: { meaning: "Near death; declining.", pos: "adjective" },
+  morn: { meaning: "The morning.", pos: "noun" },
+  morning: { meaning: "The early part of the day.", pos: "noun" },
+  moron: { meaning: "A foolish person.", pos: "noun" },
+  morose: { meaning: "Gloomy; sullen.", pos: "adjective" },
+  morphine: { meaning: "A drug used for pain.", pos: "noun" },
+  morphology: { meaning: "The study of form and structure.", pos: "noun" },
+  morrow: { meaning: "The next day.", pos: "noun" },
+  morsel: { meaning: "A small piece; a bite.", pos: "noun" },
+  mortal: {
+    meaning: "A human subject to death; a non-immortal being.",
+    pos: "noun",
+  },
+  mortality: { meaning: "The state of being subject to death.", pos: "noun" },
+  mortar: { meaning: "A building material; a bowl for grinding.", pos: "noun" },
+  mortgage: { meaning: "A loan for property; to pledge.", pos: "noun" },
+  mortify: { meaning: "To embarrass; to cause shame.", pos: "verb" },
+  mortise: { meaning: "A hole; a joint.", pos: "noun" },
+  mortuary: { meaning: "A funeral home; a morgue.", pos: "noun" },
+  mosaic: { meaning: "A pattern of small pieces.", pos: "noun" },
+  mosquito: { meaning: "A small flying insect that bites.", pos: "noun" },
+  moss: { meaning: "A small plant; a moss.", pos: "noun" },
+  most: { meaning: "The greatest amount; very.", pos: "adjective" },
+  mostly: { meaning: "Mainly; for the most part.", pos: "adverb" },
+  mote: { meaning: "A particle; a speck.", pos: "noun" },
+  motel: { meaning: "A hotel for motorists.", pos: "noun" },
+  moth: { meaning: "An insect; a moth.", pos: "noun" },
+  mother: { meaning: "A female parent.", pos: "noun" },
+  motion: { meaning: "The act of moving; a proposal.", pos: "noun" },
+  motivate: {
+    meaning: "To provide a reason to act in a certain way.",
+    pos: "verb",
+  },
+  motive: { meaning: "A reason for action.", pos: "noun" },
+  motley: { meaning: "Varied; multicolored.", pos: "adjective" },
+  motor: { meaning: "A machine; to travel by car.", pos: "noun" },
+  motorcycle: { meaning: "A two-wheeled motor vehicle.", pos: "noun" },
+  mottled: { meaning: "Spotted; blotchy.", pos: "adjective" },
+  motto: { meaning: "A slogan; a guiding principle.", pos: "noun" },
+  mould: { meaning: "A fungus; a form; to shape.", pos: "noun" },
+  mound: { meaning: "A pile; a hill.", pos: "noun" },
+  mount: { meaning: "To climb; a mountain; a setting.", pos: "verb" },
+  mountain: { meaning: "A large natural elevation.", pos: "noun" },
+  mountainous: { meaning: "Full of mountains; large.", pos: "adjective" },
+  mourn: { meaning: "To grieve; to sorrow.", pos: "verb" },
+  mournful: { meaning: "Sad; sorrowful.", pos: "adjective" },
+  mouse: { meaning: "A small rodent; a computer device.", pos: "noun" },
+  mousse: { meaning: "A light dessert; a foam.", pos: "noun" },
+  moustache: { meaning: "Hair on the upper lip.", pos: "noun" },
+  mouth: { meaning: "The opening for eating; an entrance.", pos: "noun" },
+  mouthful: { meaning: "As much as the mouth can hold.", pos: "noun" },
+  movable: { meaning: "Able to be moved.", pos: "adjective" },
+  move: { meaning: "To change position; to affect.", pos: "verb" },
+  movement: { meaning: "The act of moving; a group.", pos: "noun" },
+  movie: { meaning: "A film; a motion picture.", pos: "noun" },
+  mow: { meaning: "To cut grass; to mow.", pos: "verb" },
+  much: { meaning: "A large amount; a lot.", pos: "determiner" },
+  muck: { meaning: "Dirt; manure; a mess.", pos: "noun" },
+  mucus: { meaning: "A slimy substance; a secretion.", pos: "noun" },
+  mud: { meaning: "Wet earth; a muddy substance.", pos: "noun" },
+  muddle: { meaning: "To confuse; a mess.", pos: "verb" },
+  muffin: { meaning: "A small baked good.", pos: "noun" },
+  muffle: { meaning: "To wrap; to deaden sound.", pos: "verb" },
+  muffler: { meaning: "A scarf; a silencer.", pos: "noun" },
+  mufti: { meaning: "Civilian clothes; a Muslim legal expert.", pos: "noun" },
+  mug: { meaning: "A cup; the face; to attack.", pos: "noun" },
+  muggy: { meaning: "Warm and humid.", pos: "adjective" },
+  mulberry: { meaning: "A tree; a dark purple fruit.", pos: "noun" },
+  mulch: { meaning: "A protective material for soil.", pos: "noun" },
+  mule: { meaning: "An animal; a stubborn person.", pos: "noun" },
+  mull: { meaning: "To ponder; to consider.", pos: "verb" },
+  mullet: { meaning: "A fish; a hairstyle.", pos: "noun" },
+  multi: { meaning: "Many; multiple.", pos: "prefix" },
+  multifarious: { meaning: "Having many parts; diverse.", pos: "adjective" },
+  multilateral: { meaning: "Involving many countries.", pos: "adjective" },
+  multimedia: { meaning: "Using multiple media.", pos: "noun" },
+  multiply: { meaning: "To increase; to perform multiplication.", pos: "verb" },
+  multitude: { meaning: "A large number; a crowd.", pos: "noun" },
+  mumble: { meaning: "To speak indistinctly.", pos: "verb" },
+  mummify: { meaning: "To preserve; to dry.", pos: "verb" },
+  mummy: { meaning: "A preserved body; a mother.", pos: "noun" },
+  mumps: { meaning: "A viral disease causing swollen glands.", pos: "noun" },
+  munch: { meaning: "To chew vigorously.", pos: "verb" },
+  mundane: { meaning: "Ordinary; worldly.", pos: "adjective" },
+  municipal: { meaning: "Relating to a city; civic.", pos: "adjective" },
+  munificent: { meaning: "Very generous; bountiful.", pos: "adjective" },
+  munitions: { meaning: "Military weapons and ammunition.", pos: "noun" },
+  mural: { meaning: "A large wall painting.", pos: "noun" },
+  murder: { meaning: "Unlawful killing; to kill.", pos: "noun" },
+  murderous: { meaning: "Capable of murder; deadly.", pos: "adjective" },
+  murk: { meaning: "Darkness; gloom.", pos: "noun" },
+  murky: { meaning: "Dark; obscure; cloudy.", pos: "adjective" },
+  murmur: {
+    meaning: "A soft, indistinct sound made by a person or group.",
+    pos: "noun",
+  },
+  muscle: { meaning: "Body tissue; strength; to force.", pos: "noun" },
+  muscular: { meaning: "Having strong muscles; brawny.", pos: "adjective" },
+  muse: { meaning: "To think deeply; a source of inspiration.", pos: "verb" },
+  museum: { meaning: "A building for displaying artifacts.", pos: "noun" },
+  mushroom: { meaning: "A fungus; to increase rapidly.", pos: "noun" },
+  music: { meaning: "The art of sound; a composition.", pos: "noun" },
+  musical: {
+    meaning: "Relating to music; a play with music.",
+    pos: "adjective",
+  },
+  musician: { meaning: "A person who performs music.", pos: "noun" },
+  musk: { meaning: "A fragrant substance.", pos: "noun" },
+  musket: { meaning: "An old firearm.", pos: "noun" },
+  muskrat: { meaning: "A large rodent.", pos: "noun" },
+  muslin: { meaning: "A cotton fabric.", pos: "noun" },
+  mussel: { meaning: "A shellfish; a mollusk.", pos: "noun" },
+  must: { meaning: "To be obliged; a necessity.", pos: "verb" },
+  mustache: { meaning: "Hair on the upper lip.", pos: "noun" },
+  mustard: { meaning: "A condiment; a plant.", pos: "noun" },
+  muster: { meaning: "To gather; to summon.", pos: "verb" },
+  mutation: {
+    meaning: "A change in the DNA sequence of an organism.",
+    pos: "noun",
+  },
+  mute: { meaning: "Silent; unable to speak; to silence.", pos: "adjective" },
+  mutilate: { meaning: "To damage; to injure severely.", pos: "verb" },
+  mutineer: { meaning: "A person who rebels.", pos: "noun" },
+  mutiny: { meaning: "A rebellion; a revolt.", pos: "noun" },
+  mutt: { meaning: "A mongrel dog.", pos: "noun" },
+  mutter: { meaning: "To speak quietly; to mutter.", pos: "verb" },
+  mutton: { meaning: "Meat from sheep.", pos: "noun" },
+  mutual: { meaning: "Shared or felt equally by two sides.", pos: "adjective" },
+  muzzle: { meaning: "The nose of an animal; a restraint.", pos: "noun" },
+  my: { meaning: "Belonging to me.", pos: "pronoun" },
+  myelin: {
+    meaning: "A fatty substance that surrounds and insulates nerve fibers.",
+    pos: "noun",
+  },
+  myriad: { meaning: "A countless number; numerous.", pos: "noun" },
+  myrmidon: { meaning: "A loyal follower; a soldier.", pos: "noun" },
+  myrrh: { meaning: "A fragrant resin.", pos: "noun" },
+  myrtle: { meaning: "An evergreen shrub.", pos: "noun" },
+  myself: {
+    meaning: "Used as the object of a verb referring to the speaker.",
+    pos: "pronoun",
+  },
+  mysterious: { meaning: "Mysterious; puzzling.", pos: "adjective" },
+  mystery: {
+    meaning: "Something unknown or incomprehensible, often with hidden power.",
+    pos: "noun",
+  },
+  mystic: {
+    meaning: "A spiritual seeker; relating to mysteries.",
+    pos: "noun",
+  },
+  mystical: {
+    meaning: "Relating to mysteries or direct perception of spiritual truths.",
+    pos: "adjective",
+  },
+  mysticism: { meaning: "The pursuit of spiritual union.", pos: "noun" },
+  mystify: { meaning: "To bewilder; to perplex.", pos: "verb" },
+  myth: { meaning: "A traditional story; a legend.", pos: "noun" },
+  mythical: { meaning: "Relating to myth; legendary.", pos: "adjective" },
+  mythology: { meaning: "A collection of myths.", pos: "noun" },
+  myxomatosis: { meaning: "A viral disease of rabbits.", pos: "noun" },
+
+  // Add these entries to DICTIONARY_M
+  macadam: {
+    meaning: "A paving material made of crushed stone; a road surface.",
+    pos: "noun",
+  },
+  macadamia: {
+    meaning: "An Australian tree with edible nuts; the nut itself.",
+    pos: "noun",
+  },
+  macaque: {
+    meaning: "A medium-sized monkey native to Asia and Africa.",
+    pos: "noun",
+  },
+  machete: {
+    meaning: "A large, heavy knife used for cutting vegetation or as a weapon.",
+    pos: "noun",
+  },
+  machination: {
+    meaning: "A cunning plot or scheme; a crafty maneuver.",
+    pos: "noun",
+  },
+  machismo: {
+    meaning: "Strong or aggressive masculine pride; exaggerated manliness.",
+    pos: "noun",
+  },
+  madrigal: {
+    meaning:
+      "A secular vocal piece with multiple voices, popular in the Renaissance.",
+    pos: "noun",
+  },
+  magma: {
+    meaning: "Molten rock beneath the earth's crust.",
+    pos: "noun",
+  },
+  magnanimity: {
+    meaning: "The quality of being generous and noble in spirit; forgiveness.",
+    pos: "noun",
+  },
+  magniloquent: {
+    meaning: "Using lofty, grand, or pompous language.",
+    pos: "adjective",
+  },
+  maharaja: {
+    meaning: "A title for a great Hindu prince or ruler in India.",
+    pos: "noun",
+  },
+  mahimahi: {
+    meaning:
+      "A large tropical fish with a brilliant color; also called dolphin fish.",
+    pos: "noun",
+  },
+  mainframe: {
+    meaning: "A large, powerful computer used by large organizations.",
+    pos: "noun",
+  },
+  malachite: {
+    meaning:
+      "A green copper carbonate mineral used as an ore and ornamental stone.",
+    pos: "noun",
+  },
+  malcontent: {
+    meaning: "A person who is dissatisfied and rebellious; discontented.",
+    pos: "noun",
+  },
+  malediction: {
+    meaning: "A curse; a spoken wish of evil upon someone.",
+    pos: "noun",
+  },
+  malefactor: {
+    meaning: "A person who commits a crime; an evildoer.",
+    pos: "noun",
+  },
+  malfeasance: {
+    meaning: "Misconduct or wrongdoing, especially by a public official.",
+    pos: "noun",
+  },
+  mallard: {
+    meaning:
+      "A common wild duck (Anas platyrhynchos), the ancestor of domestic ducks.",
+    pos: "noun",
+  },
+  maltose: {
+    meaning: "A sugar produced by the breakdown of starch; a disaccharide.",
+    pos: "noun",
+  },
+  mamba: {
+    meaning: "A highly venomous African snake of the elapid family.",
+    pos: "noun",
+  },
+  mammary: {
+    meaning: "Relating to the breasts or milk‑producing glands.",
+    pos: "adjective",
+  },
+  mammogram: {
+    meaning: "An X‑ray image of the breast used for cancer screening.",
+    pos: "noun",
+  },
+  mammography: {
+    meaning: "The technique of using X‑rays to examine the breasts.",
+    pos: "noun",
+  },
+  manacle: {
+    meaning: "A metal band or chain for restraining hands or feet; a fetter.",
+    pos: "noun",
+  },
+  manic: {
+    meaning: "Showing mania; excessively excited or frantic.",
+    pos: "adjective",
+  },
+  manila: {
+    meaning:
+      "A strong, light‑brown paper or fiber; also a city in the Philippines.",
+    pos: "noun",
+  },
+  mannequin: {
+    meaning: "A life‑size dummy used to display clothes; a model.",
+    pos: "noun",
+  },
+  mantilla: {
+    meaning: "A lace or silk scarf worn over the hair and shoulders in Spain.",
+    pos: "noun",
+  },
+  mantra: {
+    meaning: "A sacred utterance, syllable, or phrase repeated in meditation.",
+    pos: "noun",
+  },
+  maraschino: {
+    meaning:
+      "A liqueur made from cherries; a cherry preserved in this liqueur.",
+    pos: "noun",
+  },
+  margarita: {
+    meaning: "A cocktail made with tequila, lime juice, and orange liqueur.",
+    pos: "noun",
+  },
+  marl: {
+    meaning:
+      "A calcium‑rich sediment used as fertilizer; a blend of clay and lime.",
+    pos: "noun",
+  },
+  marmalade: {
+    meaning: "A preserve made from citrus fruit, especially oranges.",
+    pos: "noun",
+  },
+  marquee: {
+    meaning:
+      "A large tent for outdoor events; a canopy above a theater entrance.",
+    pos: "noun",
+  },
+  maser: {
+    meaning:
+      "A device that amplifies microwave radiation (like a laser for microwaves).",
+    pos: "noun",
+  },
+  mash: {
+    meaning: "To crush or pound into a soft mass; a mixture of boiled grains.",
+    pos: "verb",
+  },
+  masque: {
+    meaning:
+      "A form of dramatic entertainment with music and dance, popular in the 16th–17th centuries.",
+    pos: "noun",
+  },
+  maternity: {
+    meaning:
+      "The state of being a mother; relating to childbirth and motherhood.",
+    pos: "noun",
+  },
+  math: {
+    meaning: "The study of numbers, quantities, and shapes; mathematics.",
+    pos: "noun",
+  },
+  matinee: {
+    meaning: "A performance or screening held during the afternoon.",
+    pos: "noun",
+  },
+  matriculation: {
+    meaning:
+      "The process of enrolling or being admitted to a college or university.",
+    pos: "noun",
+  },
+  maven: {
+    meaning: "An expert or connoisseur; a knowledgeable person.",
+    pos: "noun",
+  },
+  mead: {
+    meaning: "An alcoholic drink made from fermented honey and water.",
+    pos: "noun",
+  },
+  meadowlark: {
+    meaning:
+      "A North American songbird with a yellow breast and black V‑shaped band.",
+    pos: "noun",
+  },
+  mealy: {
+    meaning: "Dry, crumbly, or powdery in texture; pale in color.",
+    pos: "adjective",
+  },
+  meanderings: {
+    meaning: "Winding or wandering paths; a roundabout course.",
+    pos: "noun",
+  },
+  measurable: {
+    meaning: "Able to be measured; significant or noticeable.",
+    pos: "adjective",
+  },
+  meatier: {
+    meaning: "Containing more meat; more substantial or rich in content.",
+    pos: "adjective",
+  },
+  medallion: {
+    meaning: "A large medal; a round or oval ornament, often worn as jewelry.",
+    pos: "noun",
+  },
+  mediocrity: {
+    meaning: "The quality of being average or ordinary; moderate ability.",
+    pos: "noun",
+  },
+  megalith: {
+    meaning: "A large stone used in prehistoric monuments.",
+    pos: "noun",
+  },
+  megalopolis: {
+    meaning: "A very large, sprawling urban area formed by merging cities.",
+    pos: "noun",
+  },
+  melanoma: {
+    meaning: "A serious form of skin cancer originating in melanocytes.",
+    pos: "noun",
+  },
+  mellifluous: {
+    meaning: "Sweetly flowing; pleasing to the ear, as a voice or music.",
+    pos: "adjective",
+  },
+  menacing: {
+    meaning: "Threatening; suggesting danger or harm.",
+    pos: "adjective",
+  },
+  mendicant: {
+    meaning:
+      "A beggar; a person who lives by begging, especially a religious friar.",
+    pos: "noun",
+  },
+  menthol: {
+    meaning: "A white crystalline substance with a minty taste and smell.",
+    pos: "noun",
+  },
+  mercurial: {
+    meaning: "Subject to sudden changes; volatile; lively.",
+    pos: "adjective",
+  },
+  merengue: {
+    meaning:
+      "A lively dance and music style originating in the Dominican Republic.",
+    pos: "noun",
+  },
+  mesmerism: {
+    meaning: "Hypnotic induction; a magnetic or hypnotic influence.",
+    pos: "noun",
+  },
+  metabolize: {
+    meaning: "To process (food, nutrients) by metabolism.",
+    pos: "verb",
+  },
+  metalloid: {
+    meaning:
+      "An element with properties intermediate between metals and nonmetals.",
+    pos: "noun",
+  },
+  meteoric: {
+    meaning: "Relating to meteors; rapid and brilliant, as a meteoric rise.",
+    pos: "adjective",
+  },
+  methane: {
+    meaning:
+      "A colourless, odourless flammable gas (CH₄), the main component of natural gas.",
+    pos: "noun",
+  },
+  meticulousness: {
+    meaning: "Extreme care and precision; attention to detail.",
+    pos: "noun",
+  },
+  micron: {
+    meaning: "A unit of length equal to one millionth of a metre (micrometre).",
+    pos: "noun",
+  },
+  migratory: {
+    meaning:
+      "Tending to migrate; moving from one region to another seasonally.",
+    pos: "adjective",
+  },
+  milligram: {
+    meaning: "A unit of mass equal to one thousandth of a gram.",
+    pos: "noun",
+  },
+  milliliter: {
+    meaning: "A unit of volume equal to one thousandth of a litre.",
+    pos: "noun",
+  },
+  millipede: {
+    meaning: "A small arthropod with many legs, usually cylindrical in shape.",
+    pos: "noun",
+  },
+  mimetic: {
+    meaning: "Relating to imitation; copying or mimicking.",
+    pos: "adjective",
+  },
+  minaret: {
+    meaning:
+      "A tall slender tower attached to a mosque, from which the call to prayer is made.",
+    pos: "noun",
+  },
+  mincemeat: {
+    meaning:
+      "A mixture of dried fruit, spices, and sometimes meat, used in pies.",
+    pos: "noun",
+  },
+  mindful: {
+    meaning: "Attentive; aware; conscious of something.",
+    pos: "adjective",
+  },
+  minuscule: {
+    meaning: "Very small; tiny; also a lowercase letter.",
+    pos: "adjective",
+  },
+  miscreant: {
+    meaning: "A person who behaves badly or without principles; a villain.",
+    pos: "noun",
+  },
+
+  misnomer: {
+    meaning: "A wrong or inaccurate name or designation.",
+    pos: "noun",
+  },
+  misogamy: {
+    meaning: "Hatred of marriage.",
+    pos: "noun",
+  },
+  misogyny: {
+    meaning: "Hatred or dislike of women.",
+    pos: "noun",
+  },
+  missal: {
+    meaning: "A liturgical book containing the texts of the Mass.",
+    pos: "noun",
+  },
+  misstep: {
+    meaning: "An unwise or careless step; a mistake.",
+    pos: "noun",
+  },
+  mistral: {
+    meaning:
+      "A strong, cold northwesterly wind that blows through the Rhône valley in France.",
+    pos: "noun",
+  },
+
+  mitochondrion: {
+    meaning:
+      "An organelle that produces energy for the cell (singular of mitochondria).",
+    pos: "noun",
+  },
+
+  mobilization: {
+    meaning: "The act of organizing and preparing for action.",
+    pos: "noun",
+  },
+
+  modem: {
+    meaning:
+      "A device that modulates and demodulates signals for data transmission.",
+    pos: "noun",
+  },
+
+  molality: {
+    meaning:
+      "A measure of concentration of a solute in a solution, expressed in moles per kilogram of solvent.",
+    pos: "noun",
+  },
+  molarity: {
+    meaning:
+      "A measure of concentration expressed in moles per litre of solution.",
+    pos: "noun",
+  },
+
+  monarchist: {
+    meaning: "A person who supports the institution of monarchy.",
+    pos: "noun",
+  },
+  monasticism: {
+    meaning: "The way of life followed by monks and nuns; ascetic seclusion.",
+    pos: "noun",
+  },
+
+  mongolism: {
+    meaning: "An outdated term for Down syndrome (offensive; avoid).",
+    pos: "noun",
+  },
+  moniker: {
+    meaning: "A nickname; an informal name.",
+    pos: "noun",
+  },
+  monograph: {
+    meaning: "A detailed written study of a single subject.",
+    pos: "noun",
+  },
+  monomania: {
+    meaning: "An obsessive preoccupation with one thing.",
+    pos: "noun",
+  },
+
+  monsoon: {
+    meaning: "A seasonal wind in South Asia, bringing heavy rain.",
+    pos: "noun",
+  },
+  montage: {
+    meaning:
+      "A sequence of images or scenes assembled to convey a mood or concept.",
+    pos: "noun",
+  },
+
+  moonlight: {
+    meaning: "Light from the moon; to work a second job in secret.",
+    pos: "noun",
+  },
+  moorland: {
+    meaning: "Open land covered with heather and bracken; a moor.",
+    pos: "noun",
+  },
+
+  mordant: {
+    meaning:
+      "Sharp and caustic in speech; biting; also a substance that fixes dyes.",
+    pos: "adjective",
+  },
+
+  mothball: {
+    meaning: "A ball of chemical used to repel moths; to store and put aside.",
+    pos: "noun",
+  },
+  motif: {
+    meaning: "A recurring theme, pattern, or element in art or literature.",
+    pos: "noun",
+  },
+  motorcade: {
+    meaning: "A procession of motor vehicles.",
+    pos: "noun",
+  },
+
+  mountaineer: {
+    meaning: "A person who climbs mountains for sport.",
+    pos: "noun",
+  },
+
+  mouthpiece: {
+    meaning:
+      "The part of a musical instrument placed in the mouth; a spokesperson.",
+    pos: "noun",
+  },
+
+  mucous: {
+    meaning: "Relating to or producing mucus.",
+    pos: "adjective",
+  },
+  muddy: {
+    meaning: "Covered in mud; unclear; murky.",
+    pos: "adjective",
+  },
+
+  multicellular: {
+    meaning: "Composed of many cells.",
+    pos: "adjective",
+  },
+  multiplication: {
+    meaning: "The process of multiplying numbers; an increase in number.",
+    pos: "noun",
+  },
+
+  mush: {
+    meaning: "A soft, thick mass; to drive a dog sled.",
+    pos: "noun",
+  },
+
+  myopia: {
+    meaning: "Nearsightedness; lack of foresight.",
+    pos: "noun",
+  },
+  myopic: {
+    meaning: "Nearsighted; lacking in long‑range perspective.",
+    pos: "adjective",
+  },
+
+  // Add these entries to DICTIONARY_M (no duplicates with original or previous additions)
+  macerate: {
+    meaning:
+      "To soften or break down by soaking in liquid; to make lean or thin.",
+    pos: "verb",
+  },
+  machicolation: {
+    meaning:
+      "A projecting gallery or opening in a castle wall, used for dropping stones or boiling oil on attackers.",
+    pos: "noun",
+  },
+  macron: {
+    meaning:
+      "A diacritical mark (‾) placed over a vowel to indicate a long sound.",
+    pos: "noun",
+  },
+  macronutrient: {
+    meaning:
+      "A nutrient required in large amounts for growth and metabolism (e.g., protein, fat, carbohydrate).",
+    pos: "noun",
+  },
+  macrocosm: {
+    meaning:
+      "The universe or the whole of reality, as opposed to a small part or microcosm.",
+    pos: "noun",
+  },
+  macular: {
+    meaning:
+      "Relating to a macula (a small spot or area), especially in the eye.",
+    pos: "adjective",
+  },
+  magisterial: {
+    meaning:
+      "Having or showing authority; dignified; commanding; of a magistrate.",
+    pos: "adjective",
+  },
+  magnesia: {
+    meaning:
+      "A white, powdery compound of magnesium (MgO), used in medicine and industry.",
+    pos: "noun",
+  },
+  magneto: {
+    meaning:
+      "A small generator that produces electric current, used in ignition systems.",
+    pos: "noun",
+  },
+  mainstay: {
+    meaning:
+      "A chief support or principal element; the main upright timber in a ship.",
+    pos: "noun",
+  },
+  maladroit: {
+    meaning: "Clumsy; awkward; tactless in handling situations.",
+    pos: "adjective",
+  },
+  malarkey: {
+    meaning: "Nonsense; foolish or insincere talk.",
+    pos: "noun",
+  },
+  malathion: {
+    meaning:
+      "An organophosphate insecticide used to control pests on crops and in public health.",
+    pos: "noun",
+  },
+  maleficent: {
+    meaning: "Causing harm or evil; villainous; harmful in effect.",
+    pos: "adjective",
+  },
+  malformation: {
+    meaning:
+      "An abnormal shape or structure; a deformity resulting from faulty development.",
+    pos: "noun",
+  },
+  malfunction: {
+    meaning: "A failure to function correctly; a breakdown or defect.",
+    pos: "noun",
+  },
+  malleability: {
+    meaning:
+      "The property of being able to be hammered or pressed into shape without breaking; pliability.",
+    pos: "noun",
+  },
+  malted: {
+    meaning: "Mixed with malt; often used in drinks like malted milkshakes.",
+    pos: "adjective",
+  },
+  mambo: {
+    meaning:
+      "A lively Latin‑American dance and music style originating in Cuba.",
+    pos: "noun",
+  },
+  managerial: {
+    meaning:
+      "Relating to the role of a manager; concerned with managing people or resources.",
+    pos: "adjective",
+  },
+  mandala: {
+    meaning:
+      "A circular geometric design representing the universe, used in Hindu and Buddhist spiritual art.",
+    pos: "noun",
+  },
+  "man-eating": {
+    meaning: "That eats or is prone to eat humans; used of animals.",
+    pos: "adjective",
+  },
+  manful: {
+    meaning: "Having strength and courage; brave; resolute.",
+    pos: "adjective",
+  },
+  manganese: {
+    meaning:
+      "A hard, grey metallic chemical element (Mn) used in steelmaking and batteries.",
+    pos: "noun",
+  },
+  manger: {
+    meaning: "A trough or open box from which horses or cattle feed.",
+    pos: "noun",
+  },
+  manhole: {
+    meaning:
+      "A covered opening in a street or floor, giving access to sewers or utilities.",
+    pos: "noun",
+  },
+  manly: {
+    meaning:
+      "Having qualities traditionally associated with men, such as strength and courage.",
+    pos: "adjective",
+  },
+  marbled: {
+    meaning:
+      "Having a veined or mottled appearance like marble; streaked with colour.",
+    pos: "adjective",
+  },
+  marchioness: {
+    meaning:
+      "The wife or widow of a marquess; a noblewoman ranking above a countess.",
+    pos: "noun",
+  },
+  margay: {
+    meaning:
+      "A small, spotted wild cat (Leopardus wiedii) native to Central and South America.",
+    pos: "noun",
+  },
+  marionette: {
+    meaning: "A puppet controlled by strings or wires, manipulated from above.",
+    pos: "noun",
+  },
+  marketable: {
+    meaning: "Suitable for sale; desired by buyers; commercial potential.",
+    pos: "adjective",
+  },
+  marmoset: {
+    meaning:
+      "A small, squirrel‑like New World monkey with a long tail and tufted ears.",
+    pos: "noun",
+  },
+  marquess: {
+    meaning: "A British nobleman ranking above an earl and below a duke.",
+    pos: "noun",
+  },
+  marsupial: {
+    meaning:
+      "A mammal that carries its young in a pouch, such as a kangaroo or koala.",
+    pos: "noun",
+  },
+  martyrdom: {
+    meaning: "The suffering or death of a martyr; the state of being a martyr.",
+    pos: "noun",
+  },
+  masochism: {
+    meaning:
+      "The tendency to derive pleasure from one’s own pain or humiliation.",
+    pos: "noun",
+  },
+  mastectomy: {
+    meaning:
+      "Surgical removal of one or both breasts, usually to treat breast cancer.",
+    pos: "noun",
+  },
+  mastodon: {
+    meaning:
+      "A large extinct elephant‑like mammal of the Ice Age, with long tusks.",
+    pos: "noun",
+  },
+  matador: {
+    meaning: "The principal bullfighter in a bullfight, who kills the bull.",
+    pos: "noun",
+  },
+  matriarchy: {
+    meaning:
+      "A social system in which women hold primary power and head families or government.",
+    pos: "noun",
+  },
+  matriculate: {
+    meaning:
+      "To formally enroll or be admitted as a student at a college or university.",
+    pos: "verb",
+  },
+  matte: {
+    meaning: "Dull; not shiny; a flat finish on a surface or photograph.",
+    pos: "adjective",
+  },
+  maudlin: {
+    meaning: "Sentimental in a weakly emotional way; tearfully sentimental.",
+    pos: "adjective",
+  },
+  measly: {
+    meaning: "Pathetically small or few; meager; also infected with measles.",
+    pos: "adjective",
+  },
+  meatball: {
+    meaning:
+      "A small ball of minced meat mixed with seasonings, often served in sauce.",
+    pos: "noun",
+  },
+  meditative: {
+    meaning: "Characterized by deep thought or contemplation; reflective.",
+    pos: "adjective",
+  },
+  melancholic: {
+    meaning: "Sad; depressed; characterized by melancholy.",
+    pos: "adjective",
+  },
+  meliorism: {
+    meaning:
+      "The belief that the world can be improved by human effort and change.",
+    pos: "noun",
+  },
+  melodrama: {
+    meaning:
+      "A dramatic work or performance with exaggerated characters and emotions, often sensational.",
+    pos: "noun",
+  },
+  // Add these entries to DICTIONARY_M (third batch – no duplicates)
+  macrobiotic: {
+    meaning:
+      "Relating to a diet and lifestyle based on whole grains, beans, and vegetables, often for health or spiritual reasons.",
+    pos: "adjective",
+  },
+  macrocosmic: {
+    meaning:
+      "Relating to the universe as a whole; on a large, universal scale.",
+    pos: "adjective",
+  },
+  magisterium: {
+    meaning:
+      "The official teaching authority of the Catholic Church, exercised by the Pope and bishops.",
+    pos: "noun",
+  },
+  magnetite: {
+    meaning:
+      "A black, magnetic iron oxide mineral (Fe₃O₄), an important iron ore.",
+    pos: "noun",
+  },
+  magnetosphere: {
+    meaning:
+      "The region of space surrounding a planet dominated by its magnetic field.",
+    pos: "noun",
+  },
+  magnum: {
+    meaning:
+      "A large bottle of wine or champagne (about 1.5 litres); also a powerful firearm cartridge.",
+    pos: "noun",
+  },
+  maidservant: {
+    meaning: "A female servant, especially one employed in a household.",
+    pos: "noun",
+  },
+  mailbag: {
+    meaning:
+      "A large bag used for carrying or transporting mail; also the total mail received.",
+    pos: "noun",
+  },
+  mainline: {
+    meaning:
+      "To inject a drug directly into a vein; also a principal or main line.",
+    pos: "verb",
+  },
+  mainstream: {
+    meaning: "The dominant trend, opinion, or style in society; conventional.",
+    pos: "noun",
+  },
+  majolica: {
+    meaning:
+      "A type of tin‑glazed earthenware, often brightly painted and decorated.",
+    pos: "noun",
+  },
+  majuscule: {
+    meaning: "A capital letter; a large letter used in writing or printing.",
+    pos: "noun",
+  },
+  makings: {
+    meaning:
+      "The necessary materials, qualities, or potential to produce something.",
+    pos: "noun",
+  },
+  malefic: {
+    meaning: "Harmful, evil, or destructive in intent or effect.",
+    pos: "adjective",
+  },
+  mama: {
+    meaning: "An informal term for mother; a child's word for mother.",
+    pos: "noun",
+  },
+  mammalogy: {
+    meaning: "The branch of zoology that deals with mammals.",
+    pos: "noun",
+  },
+  mammillary: {
+    meaning:
+      "Relating to or shaped like a breast or nipple; having small rounded protuberances.",
+    pos: "adjective",
+  },
+  mammon: {
+    meaning:
+      "Material wealth or riches regarded as a source of greed and moral corruption.",
+    pos: "noun",
+  },
+  manageability: {
+    meaning:
+      "The quality or state of being easy to manage, control, or handle.",
+    pos: "noun",
+  },
+  maneater: {
+    meaning:
+      "A person (or animal) that preys on or eats human flesh; also a seductive woman.",
+    pos: "noun",
+  },
+  manpower: {
+    meaning:
+      "The total number of people available for work, service, or labour.",
+    pos: "noun",
+  },
+  manticore: {
+    meaning:
+      "A mythical beast with a human head, lion's body, and tail of spines or scorpion sting.",
+    pos: "noun",
+  },
+  marimba: {
+    meaning:
+      "A percussion instrument with wooden bars struck by mallets, similar to a xylophone but deeper in tone.",
+    pos: "noun",
+  },
+  marzipan: {
+    meaning:
+      "A sweet, pliable paste made from ground almonds, sugar, and egg whites, used in confectionery.",
+    pos: "noun",
+  },
+  masthead: {
+    meaning:
+      "The title, logo, or listing of editorial staff at the top of a newspaper or magazine page.",
+    pos: "noun",
+  },
+  materialize: {
+    meaning:
+      "To become real or apparent; to appear or come into existence, often suddenly.",
+    pos: "verb",
+  },
+  matrimonial: {
+    meaning: "Relating to marriage, wedding, or the state of being married.",
+    pos: "adjective",
+  },
+  matriarchal: {
+    meaning:
+      "Relating to a social system in which women hold primary authority and leadership.",
+    pos: "adjective",
+  },
+  maxilla: {
+    meaning: "The upper jawbone in vertebrates, which holds the upper teeth.",
+    pos: "noun",
+  },
+  mealtime: {
+    meaning: "The customary time at which a meal is eaten.",
+    pos: "noun",
+  },
+  meatloaf: {
+    meaning:
+      "A baked dish of ground meat mixed with breadcrumbs, eggs, and seasonings, formed into a loaf.",
+    pos: "noun",
+  },
+  mechanization: {
+    meaning:
+      "The process of replacing human or animal labour with machines and mechanical equipment.",
+    pos: "noun",
+  },
+  mediastinum: {
+    meaning:
+      "The central part of the thoracic cavity, between the lungs, containing the heart, trachea, and major vessels.",
+    pos: "noun",
+  },
+  medulla: {
+    meaning:
+      "The inner, core region of an organ or structure, such as the brainstem or kidney.",
+    pos: "noun",
+  },
+  megabyte: {
+    meaning:
+      "A unit of digital information equal to approximately one million bytes (1,048,576 bytes).",
+    pos: "noun",
+  },
+  megalomania: {
+    meaning:
+      "An obsessive mental disorder marked by delusions of power, wealth, or greatness.",
+    pos: "noun",
+  },
+  melancholia: {
+    meaning:
+      "A profound, prolonged, and often melancholic depression; a severe form of sadness.",
+    pos: "noun",
+  },
+  membership: {
+    meaning:
+      "The state of being a member of a group, organisation, or society.",
+    pos: "noun",
+  },
+  menarche: {
+    meaning:
+      "The first menstrual period in a female, marking the onset of puberty and reproductive capacity.",
+    pos: "noun",
+  },
+  mendacity: {
+    meaning: "The quality of being untruthful; dishonesty or habitual lying.",
+    pos: "noun",
+  },
+  meniscus: {
+    meaning:
+      "The curved upper surface of a liquid in a tube; also a cartilage structure in the knee joint.",
+    pos: "noun",
+  },
+  menopausal: {
+    meaning:
+      "Relating to menopause, the natural cessation of menstruation and fertility in women.",
+    pos: "adjective",
+  },
+  menswear: {
+    meaning: "Clothing and accessories specifically designed for men.",
+    pos: "noun",
+  },
+  merfolk: {
+    meaning:
+      "Mythical aquatic people with human upper bodies and fish tails; mermaids and mermen collectively.",
+    pos: "noun",
+  },
+  merlot: {
+    meaning:
+      "A dark, red wine grape variety, and the wine produced from it, known for its soft, fruity character.",
+    pos: "noun",
+  },
+  mescaline: {
+    meaning:
+      "A naturally occurring psychoactive alkaloid found in peyote and certain cacti, used for its hallucinogenic effects.",
+    pos: "noun",
+  },
+  mesentery: {
+    meaning:
+      "A fold of tissue that attaches the intestines to the abdominal wall, supporting blood vessels and nerves.",
+    pos: "noun",
+  },
+  mesosphere: {
+    meaning:
+      "The layer of Earth's atmosphere above the stratosphere, extending from about 50 to 85 kilometres in altitude.",
+    pos: "noun",
+  },
+  metabolite: {
+    meaning:
+      "A substance produced by or involved in metabolism, such as intermediates or end products of biochemical reactions.",
+    pos: "noun",
+  },
+  metamorphic: {
+    meaning:
+      "Relating to rock that has been transformed by heat, pressure, or chemical processes; also undergoing transformation.",
+    pos: "adjective",
+  },
+};
